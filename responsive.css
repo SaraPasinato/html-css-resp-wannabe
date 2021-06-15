@@ -1,21 +1,50 @@
 @media screen and (max-width:419px) {
 
-body{
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#lezioni.container{
     background-color: #f2f1cd;
+    margin-top: -5px;
+    padding: 20px;
 }
 
 
 .row {
-    margin-top: 10px;
     width: 100%;
+    margin-top: 0px;
   }
 
-
+/* BLOCCO LEZIONI */
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
     float: none;
   }
 
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 100%;
+  padding: 20px;
+}
 
+
+
+/* COMMON */
+
+.container.grey {
+  background-color: #f9f9f9; 
+
+}
+
+img {
+  height: 150px;
+}
+  
 }
