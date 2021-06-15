@@ -5,11 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+#why.container,
 #lezioni.container{
     background-color: #f2f1cd;
     margin-top: -5px;
-    padding: 20px;
+    padding:15px 20px;
 }
 
 
@@ -34,7 +34,12 @@
   padding: 20px;
 }
 
-
+/* BLOCCO PERCHE */
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  margin-top: 40px;
+}
 
 /* COMMON */
 
@@ -44,7 +49,7 @@
 }
 
 img {
-  height: 150px;
+  height: 120px;
 }
   
 }
